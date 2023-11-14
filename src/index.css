@@ -1,0 +1,39 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  #root{
+  width:100%;
+  
+  }
+  .dashboard-container{
+  margin: 0 auto;
+  background-color: brown;
+  display:grid;
+  height:100vh;
+  width:70%;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(3,1fr);
+  padding: 2rem;
+  }
+  .sidebar-container{
+  background-color: blue;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  }
+  .wv-container{
+  background-color: green;
+  }
+  .sa-container{
+  background-color: yellow;
+  }
+  .reviews-container{
+  background-color: orange;
+  }
+  .ar-container{
+  background-color:bisque;
+  }
+  
